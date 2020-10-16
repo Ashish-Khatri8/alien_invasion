@@ -14,6 +14,8 @@ class AlienInvasion:
         # Create a display window for the game.
         self.screen = pygame.display.set_mode((1200, 800))
         pygame.display.set_caption("Alien Invasion")
+        # Set the background color.
+        self.bg_color = (175, 175, 175)
 
 
     def run_game(self):
@@ -26,6 +28,9 @@ class AlienInvasion:
                 if event.type == pygame.QUIT:
                     sys.exit()
 
+            # Redraw the screen during each pass through the loop.
+            self.screen.fill(self.bg_color)
+            
             # Make the most recently drawn screen visible.
             pygame.display.flip()
 
