@@ -3,6 +3,10 @@
 I created this game by following the [Python Crash Course](https://www.amazon.in/Python-Crash-Course-Eric-Matthes/dp/1593279280) book.                               
 The reason was to improve my **PYTHON** skills.
 
+<div align = center margin = auto>
+    <img src = "images/sample_image.png" width = 75%>
+</div>
+
 ##  :alien: Introduction
 > In Alien Invasion, the player controls a ship that appears at
 the bottom center of the screen. The player can move the ship
@@ -14,10 +18,6 @@ appears that moves faster than the previous fleet. If any alien hits
 the player’s ship or reaches the bottom of the screen, the player
 loses a ship. The player gets 3 extra ships. If the player 
 loses all four ships, the game ends.
-
-<div align = center margin = auto>
-    <img src = "images/sample_image.png" width = 75%>
-</div>
 
 ## :paperclip: Requirements
 - [Python 3.x](https://www.python.org/)
@@ -31,7 +31,7 @@ loses all four ships, the game ends.
 ### Cloning the Repository
 ```
 $ git clone https://github.com/Blaze-K8/alien_invasion.git 
-$ cd alien-invasion
+$ cd alien_invasion
 ```
 
 ### Running
