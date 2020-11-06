@@ -19,13 +19,11 @@ the player’s ship or reaches the bottom of the screen, the player
 loses a ship. The player gets 3 extra ships. If the player 
 loses all four ships, the game ends.
 
-## :paperclip: Requirements
-- [Python 3.x](https://www.python.org/)
-- [Pygame](https://www.pygame.org/)
 
 ## :video_game: Controls
 - Spacebar :- To shoot.
 - Left and right arrow keys :- To move the ship left and right.
+
 
 ## :rocket: Let's Play
 ### Cloning the Repository
@@ -33,9 +31,26 @@ loses all four ships, the game ends.
 $ git clone https://github.com/Blaze-K8/alien_invasion.git 
 $ cd alien_invasion
 ```
+### Activating the virtual environment
 
-### Running
+#### In Linux/Mac terminal :-
 ```
-$ python3 alien_invasion.py
+$ source venv/bin/activate
 ```
+
+#### In Windows CMD :- 
+```
+$ win\Scripts\activate
+```
+
+### Running the game
+```
+$ python alien_invasion.py
+```
+
+### Deactivating the virtual environment
+```
+$ deactivate
+```
+
 Enjoy the game.:smile:
